@@ -20,7 +20,11 @@ public class test {
 		IStudentService service=ctx.getBean("studentServiceImpl",IStudentService.class);
 		Student s=new Student();
 
+<<<<<<< HEAD
 		s.setName("lili");
+=======
+		s.setName("丽丽");
+>>>>>>> branch 'master' of https://git@github.com/yeshuyang/pubDepot.git
 		s.setAge(12);
 	
 			try {

@@ -25,7 +25,7 @@ public class IStudentServiceTest {
 	public void testInsert() {
 		IStudentService service=ctx.getBean("studentServiceImpl",IStudentService.class);
 		Student s=new Student();
-		s.setName("���");
+		s.setName("112");
 		s.setAge(10);
 		try{
 			TestCase.assertEquals(service.insert(s), true);
@@ -39,7 +39,7 @@ public class IStudentServiceTest {
 		IStudentService service=ctx.getBean("studentServiceImpl",IStudentService.class);
 		Student s=new Student();
 		s.setId(11158);
-		s.setName("ÀöÀö ");
+		s.setName("Ã€Ã¶Ã€Ã¶ ");
 		s.setAge(10);
 		try{
 			TestCase.assertEquals(service.update(s), true);

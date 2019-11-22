@@ -20,7 +20,7 @@ public class test {
 		IStudentService service=ctx.getBean("studentServiceImpl",IStudentService.class);
 		Student s=new Student();
 
-		s.setName("ali");
+		s.setName("lili");
 		s.setAge(12);
 	
 			try {

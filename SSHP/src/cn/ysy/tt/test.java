@@ -19,7 +19,7 @@ public class test {
 		 ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");
 		IStudentService service=ctx.getBean("studentServiceImpl",IStudentService.class);
 		Student s=new Student();
-		s.setName("lili");
+		s.setName("ÀöÀö");
 		s.setAge(12);
 	
 			try {
